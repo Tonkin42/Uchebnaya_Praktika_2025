@@ -25,7 +25,7 @@ namespace TestDBInput
             BookAuthor = textBox2.Text;
             int ID = Convert.ToInt32(textBox3.Text);
 
-            string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:\\KINGSTON\\АнализИМоделированиеПО\\TESTDB\\TestDBInput\\TestDataBase.accdb";
+            string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:\\KINGSTON\\АнализИМоделированиеПО\\ОсновнаяВерсия\\TestDBInput\\TestDataBase.accdb";
             OleDbConnection dbConnection = new OleDbConnection(connectionString);
 
             dbConnection.Open();
@@ -86,3 +86,4 @@ namespace TestDBInput
         }
     }
 }
+
